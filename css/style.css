@@ -43,7 +43,7 @@ a {
     --button-write: #ffffff;
 
     --text-write: #ffffff;
-    --text-green: #88b3b3;
+    --text-green: #3f6b6b;
     --text-light-green: #88b3b3;
     --text-gray: #616161;
     --text-light-gray: #929292;
@@ -276,10 +276,116 @@ a {
 
 }
 
-/*BOTAO MENU*/
-#backgroundPage #container #menu {
+/*HEADER*/
+
+#backgroundPage #container #header {
+    width: 100%;
+    height: auto;
+
+    background-color: #616161;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/*HEADER - BOTAO*/
+#backgroundPage #container #header #menu {
     padding: 2%;
 
     width: 1%;
+    height: auto;
+
+    background-color: #dddddd;
+
+}
+
+#backgroundPage #container #header #menu img {
+    width: 100%;
+    height: auto;
+
+}
+
+/*HEADER - LOCALIZATION*/
+#backgroundPage #container #header #localization {
+    padding: 2%;
+
+    width: 50%;
+    height: auto;
+
+    background-color: #c3c3c3;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: var(--text-light-gray);
+
+}
+
+/*CONFIGURACAO SVG*/
+#backgroundPage #container #header #localization #localizationStyle {
+    width: 100%;
+    height: auto;
+
+    text-align: right;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--text-green);
+
+}
+
+#backgroundPage #container #header #localization #localizationStyle svg {
+    width: 2%;
+    height: 2%;
+
+}
+
+#backgroundPage #container #header #localization #localizationStyle svg path {
+    fill: currentcolor;
+
+}
+
+#backgroundPage #container #header #localization #localizationStyle p {
+    font-size: 16px;
+    font-weight: 400;
+
+    color: var(--text-gray);
+
+}
+
+#backgroundPage #container #header #localization #localizationStyle b {
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+/*===================*/
+
+/*HEADER - PERFIL*/
+
+#backgroundPage #container #header #userPerfil {
+    padding: 1%;
+
+    width: 4%;
+    height: auto;
+
+}
+
+#backgroundPage #container #header #userPerfil img{
+    width: 100%;
+    height: auto;
+
+    border-radius: 50%;
+
+    background-color: #3f6b6b;
 
 }
