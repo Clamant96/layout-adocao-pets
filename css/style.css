@@ -148,8 +148,6 @@ a {
 
     text-align: right;
 
-    transition: color, .5s;
-
     display: flex;
     align-items: center;
     justify-content: center;
