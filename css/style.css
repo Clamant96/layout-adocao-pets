@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html, body {
+    /*display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;*/
+
+    font-family: 'Montserrat', sans-serif;
+
+    /*PODE SER QUE SEJA NECESSARIO REAJUSTAR PARA IOS - iPhone*/
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--background-default);
+
+}
+
+:root {
+    --background-default: #3f6b6b;
+    --background-light-green: #88b3b3;
+    --background-container: #f6f6f6;
+    --background-write: #f6f6f6;
+
+    --button-green: #3f6b6b;
+    --button-light-green: #88b3b3;
+    --button-write: #ffffff;
+
+    --text-write: #ffffff;
+    --text-green: #88b3b3;
+    --text-light-green: #88b3b3;
+    --text-gray: #616161;
+    --text-light-gray: #929292;
+
+    --boxShadow: #262626;
+
+}
+
+/*BACKGROUND PAGE*/
+#backgroundPage {
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#backgroundPage #menuPage {
+    position: absolute;
+
+    padding: 1%;
+
+    width: 98%;
+    height: 98%;
+
+    z-index: -1;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#backgroundPage #menuPage #login {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+}
+
+#backgroundPage #menuPage #login img {
+    padding: 1%;
+    width: 4%;
+    height: auto; 
+
+}
+
+#backgroundPage #menuPage #login p {
+    font-size: 10px;
+    font-weight: 600;
+
+    color: var(--text-light-green);
+
+}
+
+#backgroundPage #menuPage #login #perfil {
+    font-size: 16px;
+
+    color: var(--text-write);
+
+}
+
+#backgroundPage #menuPage nav {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--button-light-green);
+
+}
+
+#backgroundPage #menuPage nav ul li {
+    list-style: none;
+
+    padding: 1%;
+
+    width: 94%;
+    height: auto;
+
+}
+
+#active {
+    color: var(--text-write);
+
+}
+
+#backgroundPage #menuPage #configuracao {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    color: var(--text-light-green);
+
+}
+
+#backgroundPage #menuPage #configuracao p {
+    width: 4%;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+/*CONTAINER*/
+#backgroundPage #container {
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--background-container);
+
+    box-shadow: 0px 0px 5px 0px var(--boxShadow);
+
+    transition: margin-left, border-radius, .5s;
+
+}
+
+/*BOTAO MENU*/
+#backgroundPage #container #menu {
+    padding: 2%;
+
+    width: 1%;
+
+    /*background-color: var(--background-default);*/
+
+}
