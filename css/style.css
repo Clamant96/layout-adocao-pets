@@ -9,7 +9,9 @@ html, body {
     /*display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;*/
+    justify-content: center;
+    justify-content: space-between;*/
+    
 
     font-family: 'Montserrat', sans-serif;
 
@@ -58,12 +60,31 @@ html, body {
 #backgroundPage #menuPage {
     position: absolute;
 
-    padding: 1%;
+    padding: 2%;
 
-    width: 98%;
-    height: 98%;
+    width: 96%;
+    height: 96%;
 
     z-index: -1;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#backgroundPage #menuPage #login {
+    width: 100%;
+    height: 100%;
+
+    
+
+}
+
+#backgroundPage #menuPage #login #perfil {
+    width: 12%;
+    height: 100%;
 
     display: flex;
     align-items: center;
@@ -72,22 +93,14 @@ html, body {
 
 }
 
-#backgroundPage #menuPage #login {
+#backgroundPage #menuPage #login #perfil img {
     padding: 1%;
-
-    width: 98%;
-    height: auto;
-
-}
-
-#backgroundPage #menuPage #login img {
-    padding: 1%;
-    width: 4%;
+    width: 50%;
     height: auto; 
 
 }
 
-#backgroundPage #menuPage #login p {
+#backgroundPage #menuPage #login #perfil p {
     font-size: 10px;
     font-weight: 600;
 
@@ -95,7 +108,7 @@ html, body {
 
 }
 
-#backgroundPage #menuPage #login #perfil {
+#backgroundPage #menuPage #login #perfil #nomeUser {
     font-size: 16px;
 
     color: var(--text-write);
@@ -103,10 +116,8 @@ html, body {
 }
 
 #backgroundPage #menuPage nav {
-    padding: 1%;
-
-    width: 98%;
-    height: auto;
+    width: 100%;
+    height: 100%;
 
     font-size: 16px;
     font-weight: 600;
@@ -122,6 +133,13 @@ html, body {
     width: 94%;
     height: auto;
 
+    transition: color, .5s;
+
+}
+
+#backgroundPage #menuPage nav ul li:hover {
+    color: var(--text-write);
+
 }
 
 #active {
@@ -130,10 +148,8 @@ html, body {
 }
 
 #backgroundPage #menuPage #configuracao {
-    padding: 1%;
-
-    width: 98%;
-    height: auto;
+    width: 100%;
+    height: 100%;
 
     display: flex;
     align-items: center;
@@ -144,9 +160,16 @@ html, body {
 }
 
 #backgroundPage #menuPage #configuracao p {
-    width: 4%;
+    margin: 0.5%;
     font-size: 14px;
     font-weight: 600;
+
+    transition: color, .5s;
+
+}
+
+#backgroundPage #menuPage #configuracao p:hover {
+    color: var(--text-write);
 
 }
 
@@ -168,7 +191,5 @@ html, body {
     padding: 2%;
 
     width: 1%;
-
-    /*background-color: var(--background-default);*/
 
 }
