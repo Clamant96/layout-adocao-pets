@@ -501,10 +501,35 @@ a {
 
 }
 
-#backgroundPage #container #section #pets #petsOptions {
+#backgroundPage #container #section #pets #tipoPet {
     margin: 1%;
-    padding: 1%;
-    width: 3%;
+    width: 5%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#backgroundPage #container #section #pets #tipoPet p {
+    padding: 15%;
+    width: 70%;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: var(--text-light-gray);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#backgroundPage #container #section #pets #tipoPet #petsOptions {
+    padding: 10%;
+    width: 80%;
 
     box-shadow: 0px 3px 20px -10px var(--boxShadow-pets);
 
@@ -516,7 +541,7 @@ a {
 
 }
 
-#backgroundPage #container #section #pets #petsOptions:hover {
+#backgroundPage #container #section #pets #tipoPet #petsOptions:hover {
     box-shadow: 0px 3px 10px 0px var(--background-default);
 
     background-color: var(--background-default);
@@ -525,7 +550,7 @@ a {
 
 /*CONFIGURACAO SVG*/
 
-#backgroundPage #container #section #pets #petsOptions svg {
+#backgroundPage #container #section #pets #tipoPet #petsOptions svg {
     width: 100%;
     height: 100%;
 
@@ -535,15 +560,12 @@ a {
 
 }
 
-#backgroundPage #container #section #pets #petsOptions svg:hover {
-    width: 100%;
-    height: 100%;
-
+#backgroundPage #container #section #pets #tipoPet #petsOptions svg:hover {
     color: var(--text-write);
 
 }
 
-#backgroundPage #container #section #pets #petsOptions svg path {
+#backgroundPage #container #section #pets #tipoPet #petsOptions svg path {
     fill: currentcolor;
 
 }
