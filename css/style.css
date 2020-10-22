@@ -5,6 +5,8 @@
 
 }
 
+/*AJUSTE DEFAULT*/
+
 html, body {
     /*display: flex;
     align-items: center;
@@ -64,6 +66,8 @@ a {
 
 }
 
+/*MENU*/
+
 #backgroundPage #menuPage {
     position: absolute;
 
@@ -81,11 +85,11 @@ a {
 
 }
 
+/*MENU - LOGIN*/
+
 #backgroundPage #menuPage #login {
     width: 100%;
     height: 100%;
-
-    
 
 }
 
@@ -122,6 +126,8 @@ a {
 
 }
 
+/*MENU - OPCOES*/
+
 #backgroundPage #menuPage nav {
     width: 100%;
     height: 100%;
@@ -144,8 +150,6 @@ a {
     width: 10%;
     height: auto;
 
-    /*color:var(--text-light-green);*/
-
     text-align: right;
 
     display: flex;
@@ -153,11 +157,6 @@ a {
     justify-content: center;
 
 }
-
-/*#backgroundPage #menuPage nav ul li #iconsMenu:hover {
-    color:var(--text-write);
-
-}*/
 
 #backgroundPage #menuPage nav ul li #iconsMenu svg {
     width: 100%;
@@ -199,6 +198,8 @@ a {
     color: var(--text-write);
 
 }
+
+/*MENU - CONFIGURACAO*/
 
 #backgroundPage #menuPage #configuracao {
     width: 100%;
