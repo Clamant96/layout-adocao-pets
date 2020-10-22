@@ -282,7 +282,7 @@ a {
     width: 100%;
     height: auto;
 
-    background-color: #616161;
+    /*background-color: #616161;*/
 
     display: flex;
     align-items: center;
@@ -297,7 +297,7 @@ a {
     width: 1%;
     height: auto;
 
-    background-color: #dddddd;
+    /*background-color: #dddddd;*/
 
 }
 
@@ -314,7 +314,7 @@ a {
     width: 50%;
     height: auto;
 
-    background-color: #c3c3c3;
+    /*background-color: #c3c3c3;*/
 
     display: flex;
     align-items: center;
@@ -381,7 +381,8 @@ a {
 }
 
 #backgroundPage #container #header #userPerfil img{
-    width: 100%;
+    padding: 5%;
+    width: 90%;
     height: auto;
 
     border-radius: 50%;
