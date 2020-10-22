@@ -380,7 +380,7 @@ a {
 
 }
 
-#backgroundPage #container #header #userPerfil img{
+#backgroundPage #container #header #userPerfil img {
     padding: 5%;
     width: 90%;
     height: auto;
@@ -390,3 +390,96 @@ a {
     background-color: #3f6b6b;
 
 }
+
+/*SECTION*/
+
+#backgroundPage #container #section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #f0f0f0;
+
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+}
+
+/*SECTION - SEARCH*/
+
+#backgroundPage #container #section #search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1%;
+
+    width: 50%;
+    height: auto;
+
+    background-color: var(--background-write);
+
+    border-radius: 15px;
+
+}
+
+#backgroundPage #container #section #search input {
+    padding: 1%;
+
+    width: 98%;
+    height: auto;
+
+    border: none;
+
+    background-color: transparent;
+
+}
+
+#backgroundPage #container #section #search button {
+    margin-right: 1%;
+    padding: 0.5%;
+
+    width: 4%;
+    height: auto;
+
+    border: none;
+
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color, 0.5s;
+
+}
+
+/*CONFIGURACAO SVG*/
+
+#backgroundPage #container #section #search button svg {
+    width: 100%;
+    height: 100%;
+
+    color: var(--text-green);
+
+    transition: color, .5s;
+
+}
+
+#backgroundPage #container #section #search button svg:hover {
+    width: 100%;
+    height: 100%;
+
+    color: var(--text-gray);
+
+}
+
+#backgroundPage #container #section #search button svg path {
+    fill: currentcolor;
+
+}
+
+/*===================*/
