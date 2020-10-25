@@ -37,6 +37,7 @@ a {
     --background-light-green: #88b3b3;
     --background-container: #f6f6f6;
     --background-write: #f6f6f6;
+    --background-cotainer-pets: #f0f0f0;;
 
     --button-green: #3f6b6b;
     --button-light-green: #88b3b3;
@@ -410,12 +411,12 @@ a {
     flex-direction: column;
     justify-content: center;
 
-    background-color: #f0f0f0;
+    background-color: var(--background-cotainer-pets);
 
     padding: 1%;
 
     width: 98%;
-    height: auto;
+    height: 98%;
 
     border-radius: 25px 25px 0px 0px;
 
@@ -592,11 +593,11 @@ a {
 }
 
 #backgroundPage #container #section #perfilPet #containerPet {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    width: 33.3333%;
+    width: 33.1%;
     height: auto;
 
 }
