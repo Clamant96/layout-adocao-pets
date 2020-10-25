@@ -539,8 +539,7 @@ a {
 }
 
 #backgroundPage #container #section #pets #tipoPet #petsOptions {
-    padding: 10%;
-    width: 80%;
+    width: 100%;
 
     box-shadow: 0px 3px 20px -10px var(--boxShadow-pets);
 
@@ -562,8 +561,9 @@ a {
 /*CONFIGURACAO SVG*/
 
 #backgroundPage #container #section #pets #tipoPet #petsOptions svg {
-    width: 100%;
-    height: 100%;
+    padding: 10%;
+    width: 80%;
+    height: 80%;
 
     color: var(--text-gray);
 
