@@ -1,34 +1,45 @@
-document.getElementById('menu').onclick = function() {openMenu()};
-document.getElementById('backgroundPage').ondblclick = function() {closeMenu()};
+document.getElementById('menu').onclick = function() {opcaoMenu()};
 
 var menu = document.getElementById('container');
-var posicao;
 
-function openMenu() {
-    posicao = true;
-    ativar();
+var contador = 0;
 
-}
+function opcaoMenu(){
+    switch(contador % 2) {
+        case 1:
+            console.log("Impar - Fecha SideBar");
 
-function closeMenu() {
-    posicao = false;
-    ativar();
+            menu.style.marginLeft = '0%';
+            menu.style.height = '100%';
 
-}
+            menu.style.borderRadius = '0px';
 
-function ativar() {
-    if(posicao == true){
-        menu.style.marginLeft = '30%';
-        menu.style.height = '80%';
+            console.log('Contador', contador % 2);
 
-        menu.style.borderRadius = '25px';
-    
-    }else{
-        menu.style.marginLeft = '0%';
-        menu.style.height = '100%';
+            contador = 0;
 
-        menu.style.borderRadius = '0px';
-    
+        break;
+
+        case 0:
+            console.log("Par - Abre SideBar");
+
+            menu.style.marginLeft = '30%';
+            menu.style.height = '80%';
+
+            menu.style.borderRadius = '25px';
+
+            console.log('Contador', contador % 2);
+
+            contador = 1;
+
+        break;
+
+        default:
+            console.log('Erro na aplicacao!');
+        break;
+
     }
+
+    console.log('Contador', contador);
 
 }
